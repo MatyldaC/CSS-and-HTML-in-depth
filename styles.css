@@ -1,0 +1,128 @@
+body {
+    background-color: #6DC09F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #176057;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header:hover img {
+    transform: rotateY(360deg);
+    transition: 0.5s;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    border-radius: 3rem;
+    background-color: #28614A;
+    color: white;
+    font-weight: bold;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #142b22;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: #142b22;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-block: 0.4rem;
+    padding-inline: 2rem;
+}
+
+#main_heading {
+    border-radius: 2rem;
+    background-image: url(plants.avif);
+    padding-inline: 1.5rem;
+    padding-block: 0.4rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.link:link {
+    border-radius: 0.5rem;
+    background-color: #28614A;
+    padding: 0.2rem;
+}
+
+#section {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#motto {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+article:hover {
+    box-shadow: 5px 0px 25px black;
+}
+
+section {
+    flex: 1;
+    padding: 2px;
+    padding-inline: 4px;
+}
+
+#section article {
+    border: 2px solid #28614A;
+    border-radius: 1.5rem;
+    background-color: #b3dacb;
+    padding: 0.8rem;
+}
+
+footer {
+    display: flex;
+    padding:0.5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    text-align: right;
+}
